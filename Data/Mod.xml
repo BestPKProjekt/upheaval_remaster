@@ -9,6 +9,7 @@
 		
 		<!-- Mod specific -->
 		<Include type="all" source="Mod/Specific.xml" />
+		<Include type="all" source="Mod/index.xml" />
 		
 		<!-- Common used -->
 		<Include type="all" source="Mod/Common.xml" />

@@ -32,13 +32,19 @@
 		<TechDependency>PlayerTech_Allied_SatelliteSweep</TechDependency>
 		<TechDependency>PlayerTech_Generic_Rank_2</TechDependency>
 	</PlayerTech>
+	<!-- Mod 1.17
 	<PlayerTech
 		id="PlayerTech_Allied_ChronoSwap"
 		TechPointsRequired="1">
 		<TechDependency>PlayerTech_Allied_HighTechnology</TechDependency>
 		<TechDependency>PlayerTech_Generic_Rank_2</TechDependency>
+	</PlayerTech> -->
+	<PlayerTech
+		id="PlayerTech_ProductionBonus_Allies"
+		TechPointsRequired="1">
+		<TechDependency>PlayerTech_Allied_HighTechnology</TechDependency>
+		<TechDependency>PlayerTech_Generic_Rank_2</TechDependency>
 	</PlayerTech>
-	
 	<PlayerTech
 		id="PlayerTech_Allied_TimeBomb_Rank1"
 		TechPointsRequired="1">
@@ -54,7 +60,7 @@
 	<PlayerTech
 		id="PlayerTech_Allied_CryoSatellite_Rank1"
 		TechPointsRequired="1">
-		<TechDependency>PlayerTech_Allied_ChronoSwap</TechDependency>
+		<TechDependency>PlayerTech_ProductionBonus_Allies</TechDependency>
 		<TechDependency>PlayerTech_Generic_Rank_3</TechDependency>
 	</PlayerTech>
 	
@@ -83,8 +89,15 @@
 		<TechDependency>PlayerTech_Allied_TimeBomb_Rank2</TechDependency>
 		<TechDependency>PlayerTech_Generic_Rank_5</TechDependency>
 	</PlayerTech>
+	<!-- Mod 1.17 
 	<PlayerTech
 		id="PlayerTech_ProductionBonus_Allies"
+		TechPointsRequired="1">
+		<TechDependency>PlayerTech_Allied_ChronoRift_Rank3</TechDependency>
+		<TechDependency>PlayerTech_Generic_Rank_5</TechDependency>
+	</PlayerTech> -->
+	<PlayerTech
+		id="PlayerTech_Allied_ChronoSwap"
 		TechPointsRequired="1">
 		<TechDependency>PlayerTech_Allied_ChronoRift_Rank3</TechDependency>
 		<TechDependency>PlayerTech_Generic_Rank_5</TechDependency>
