@@ -20,6 +20,8 @@
 		<Include type="all" source="Superweapon/AlliedSuperWeaponAdvanced.xml" />
 		<Include type="all" source="Superweapon/JapanSuperWeapon.xml" />
 		<Include type="all" source="Superweapon/JapanSuperWeaponAdvanced.xml" />
+		<Include type="all" source="Superweapon/JapanSuperWeaponEgg.xml" />
+		<Include type="all" source="Superweapon/JapanSuperWeaponAdvancedEgg.xml" />
 		<Include type="all" source="Superweapon/SovietSuperWeapon.xml" />
 		<Include type="all" source="Superweapon/SovietSuperWeaponAdvanced.xml" />
 

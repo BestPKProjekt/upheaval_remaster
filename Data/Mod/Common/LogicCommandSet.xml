@@ -32,6 +32,8 @@
 		<Cmd>Command_ConstructAlliedArtilleryVehicle</Cmd>
 		<Cmd>Command_ConstructAlliedFutureTank</Cmd>
 		<Cmd>Command_ConstructAlliedMCV</Cmd>
+		<Cmd>Command_ConstructJapanMCV</Cmd>
+		<Cmd>Command_ConstructSovietMCV</Cmd>
 	</LogicCommandSet>
 	
 	<LogicCommandSet
