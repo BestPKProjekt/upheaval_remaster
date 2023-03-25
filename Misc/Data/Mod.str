@@ -397,6 +397,43 @@
 	End
 	
 	
+//BlackMarket
+	NAME:BlackMarketAlliedMCV
+		"Schwarz Markt MBF"
+	End
+	
+	DESC:BlackMarketAlliedMCV
+		"Erlaubt Zugriff auf die Feindliche Technologie."
+	End
+	
+	TYPE:BlackMarketAlliedMCV
+		"Feindliche Technologie"
+	End
+	
+	NAME:BlackMarketJapanMCV
+		"Schwarz Markt MBF"
+	End
+	
+	DESC:BlackMarketJapanMCV
+		"Erlaubt Zugriff auf die Feindliche Technologie."
+	End
+	
+	TYPE:BlackMarketJapanMCV
+		"Feindliche Technologie"
+	End
+	
+	NAME:BlackMarketSovietMCV
+		"Schwarz Markt MBF"
+	End
+	
+	DESC:BlackMarketSovietMCV
+		"Erlaubt Zugriff auf die Feindliche Technologie."
+	End
+	
+	TYPE:BlackMarketSovietMCV
+		"Feindliche Technologie"
+	End
+	
 	
 // Maps
 	

@@ -24,6 +24,12 @@
 		<Include type="all" source="Superweapon/JapanSuperWeaponAdvancedEgg.xml" />
 		<Include type="all" source="Superweapon/SovietSuperWeapon.xml" />
 		<Include type="all" source="Superweapon/SovietSuperWeaponAdvanced.xml" />
+		
+		<!-- BlackMarket -->
+		<Include type="all" source="BlackMarket/BlackMarketAlliedMCV.xml" />
+		<Include type="all" source="BlackMarket/BlackMarketJapanMCV.xml" />
+		<Include type="all" source="BlackMarket/BlackMarketSovietMCV.xml" />
+		<Include type="all" source="BlackMarket/LogicCommand.xml" />
 
       </Includes>
 </AssetDeclaration>

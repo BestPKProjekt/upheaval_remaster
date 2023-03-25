@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">
+	<LogicCommandSet
+		id="BlackMarketAlliedMCVCommandSet">
+		<Cmd>Command_UnPackAlliedMCV</Cmd>
+		<Cmd>Command_MoveToPositionAndCollect</Cmd>
+	</LogicCommandSet>
+	
+	<LogicCommandSet
+		id="BlackMarketJapanMCVCommandSet">
+		<Cmd>Command_UnPackJapanMCV</Cmd>
+		<Cmd>Command_MoveToPositionAndCollect</Cmd>
+	</LogicCommandSet>
+	
+	<LogicCommandSet
+		id="BlackMarketSovietMCVCommandSet">
+		<Cmd>Command_UnPackSovietMCV</Cmd>
+		<Cmd>Command_MoveToPositionAndCollect</Cmd>
+	</LogicCommandSet>
+	
+	
+</AssetDeclaration>

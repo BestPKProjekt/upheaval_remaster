@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset">
+	
+	<LogicCommand
+		Type="UNIT_BUILD"
+		id="Command_ConstructBlackMarketAlliedMCV">
+		<Object>BlackMarketAlliedMCV</Object>
+	</LogicCommand>
+	<!--
+	<LogicCommand
+		Type="SPECIAL_POWER"
+		id="Command_UnPackAlliedMCV">
+		<SpecialPower>SpecialPower_UnpackReplaceSelf</SpecialPower>
+    <AISpecialPowerInfo Heuristic="UNPACK" Manager="TACTIC"/>
+	</LogicCommand>
+	
+	<LogicCommand
+		Type="SPECIAL_POWER"
+		id="Command_PackAlliedMCV">
+		<SpecialPower>SpecialPower_PackReplaceSelf</SpecialPower>
+    <AISpecialPowerInfo Heuristic="PACK" Manager="TACTIC"/>
+	</LogicCommand>
+	-->
+	<LogicCommand
+		Type="UNIT_BUILD"
+		id="Command_ConstructBlackMarketJapanMCV">
+		<Object>BlackMarketJapanMCV</Object>
+	</LogicCommand>
+	<!--
+	<LogicCommand
+		Type="SPECIAL_POWER"
+		id="Command_UnPackJapanMCV">
+		<SpecialPower>SpecialPower_UnpackReplaceSelf</SpecialPower>
+    <AISpecialPowerInfo Heuristic="UNPACK" Manager="TACTIC"/>
+	</LogicCommand>
+	
+	<LogicCommand
+		Type="SPECIAL_POWER"
+		id="Command_PackJapanMCV">
+		<SpecialPower>SpecialPower_PackReplaceSelf</SpecialPower>
+    <AISpecialPowerInfo Heuristic="PACK" Manager="TACTIC"/>
+	</LogicCommand>
+	-->
+	<LogicCommand
+		Type="UNIT_BUILD"
+		id="Command_ConstructBlackMarketSovietMCV">
+		<Object>BlackMarketSovietMCV</Object>
+	</LogicCommand>	
+	<!--
+	<LogicCommand
+		Type="SPECIAL_POWER"
+		id="Command_UnPackSovietMCV">
+		<SpecialPower>SpecialPower_UnpackReplaceSelf</SpecialPower>
+    <AISpecialPowerInfo Heuristic="UNPACK" Manager="TACTIC"/>
+	</LogicCommand>
+	
+	<LogicCommand
+		Type="SPECIAL_POWER"
+		id="Command_UnPackSovietMCV">
+		<SpecialPower>SpecialPower_UnpackReplaceSelf</SpecialPower>
+    <AISpecialPowerInfo Heuristic="UNPACK" Manager="TACTIC"/>
+	</LogicCommand>
+	-->
+</AssetDeclaration>

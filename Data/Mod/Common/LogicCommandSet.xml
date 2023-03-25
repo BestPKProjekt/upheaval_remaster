@@ -23,7 +23,7 @@
 	
 	<LogicCommandSet
 		id="AlliedWarFactoryCommandSet">
-		<Cmd>Command_ConstructAlliedMiner</Cmd>
+		<!-- <Cmd>Command_ConstructAlliedMiner</Cmd> -->
 		<Cmd>Command_ConstructAlliedAntiInfantryVehicle_Ground</Cmd>
 		<Cmd>Command_ConstructAlliedAntiAirVehicleTech1</Cmd>
 		<Cmd>Command_ConstructAlliedAntiVehicleVehicleTech1</Cmd>
@@ -32,8 +32,8 @@
 		<Cmd>Command_ConstructAlliedArtilleryVehicle</Cmd>
 		<Cmd>Command_ConstructAlliedFutureTank</Cmd>
 		<Cmd>Command_ConstructAlliedMCV</Cmd>
-		<Cmd>Command_ConstructJapanMCV</Cmd>
-		<Cmd>Command_ConstructSovietMCV</Cmd>
+		<Cmd>Command_ConstructBlackMarketJapanMCV</Cmd>
+		<Cmd>Command_ConstructBlackMarketSovietMCV</Cmd>
 	</LogicCommandSet>
 	
 	<LogicCommandSet
@@ -87,7 +87,7 @@
 	
 	<LogicCommandSet
 		id="JapanWarFactoryCommandSetBase">
-		<Cmd>Command_ConstructJapanMiner</Cmd>
+		<!-- <Cmd>Command_ConstructJapanMiner</Cmd> -->
 		<Cmd>Command_ConstructJapanLightTransportVehicle</Cmd>
 		<Cmd>Command_ConstructJapanAntiInfantryVehicle</Cmd>
 		<Cmd>Command_ConstructJapanAntiVehicleVehicleTech1</Cmd>
@@ -95,7 +95,9 @@
 		<Cmd>Command_ConstructJapanSentinelVehicle</Cmd>
 		<Cmd>Command_ConstructJapanAntiStructureVehicle</Cmd>
 		<Cmd>Command_ConstructJapanAntiVehicleVehicleTech3</Cmd>
+		<Cmd>Command_ConstructBlackMarketAlliedMCV</Cmd>
 		<Cmd>Command_ConstructJapanMCV</Cmd>
+		<Cmd>Command_ConstructBlackMarketSovietMCV</Cmd>
 	</LogicCommandSet>
 	
 	<LogicCommandSet
@@ -124,7 +126,7 @@
 	
 	<LogicCommandSet
 		id="SovietWarFactoryCommandSet">
-		<Cmd>Command_ConstructSovietMiner</Cmd>
+		<!-- <Cmd>Command_ConstructSovietMiner</Cmd> -->
 		<Cmd>Command_ConstructSovietSurveyor</Cmd>
 		<Cmd>Command_ConstructSovietScoutVehicle</Cmd>
 		<Cmd>Command_ConstructSovietAntiInfantryVehicle</Cmd>
@@ -134,7 +136,27 @@
 		<Cmd>Command_ConstructSovietGrinderVehicle</Cmd>
 		<Cmd>Command_ConstructSovietAntiStructureVehicle</Cmd>
 		<Cmd>Command_ConstructSovietAntiVehicleVehicleTech3</Cmd>
+		<Cmd>Command_ConstructBlackMarketAlliedMCV</Cmd>
+		<Cmd>Command_ConstructBlackMarketJapanMCV</Cmd>
 		<Cmd>Command_ConstructSovietMCV</Cmd>
 		<Cmd>Command_RepairVehicle</Cmd>
+	</LogicCommandSet>
+	
+	<LogicCommandSet
+		id="BlackMarketAlliedMCVCommandSet">
+		<Cmd>Command_UnPackAlliedMCV</Cmd>
+		<Cmd>Command_MoveToPositionAndCollect</Cmd>
+	</LogicCommandSet>
+	
+	<LogicCommandSet
+		id="BlackMarketJapanMCVCommandSet">
+		<Cmd>Command_UnPackJapanMCV</Cmd>
+		<Cmd>Command_MoveToPositionAndCollect</Cmd>
+	</LogicCommandSet>
+	
+	<LogicCommandSet
+		id="BlackMarketSovietMCVCommandSet">
+		<Cmd>Command_UnPackSovietMCV</Cmd>
+		<Cmd>Command_MoveToPositionAndCollect</Cmd>
 	</LogicCommandSet>
 </AssetDeclaration>
